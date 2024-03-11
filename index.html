@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Intellicard App</title>
 </head>
 <body>
-    
+    <header>
+        <div class="background">
+            <section>
+                <div class="hero">
+                    <h1>Welcome to Intellicard</h1>
+                    <p>Your simple and easy to use Quiz Web App</p>
+                </div>
+                <form method="post" class="form-upload">
+                    <label for="file" class="custom-file-upload">Upload your .csv quiz file here</label>
+                    <input id="file" type="file"/>
+                    <button>Upload</button>
+                </form>
+            </section>
+        </div>
+    </header>
     <script src="script.js"></script>
 </body>
 </html>
